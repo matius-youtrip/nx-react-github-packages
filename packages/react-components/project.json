@@ -1,0 +1,9 @@
+{
+  "name": "@matius-youtrip/react-components",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/react-components/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project @matius-youtrip/react-components --web",
+  "targets": {}
+}

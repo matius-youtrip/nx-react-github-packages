@@ -1,0 +1,17 @@
+{
+  "name": "@matius-youtrip/react-components",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matius-youtrip/nx-react-github-packages.git",
+    "directory": "packages/react-components"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
