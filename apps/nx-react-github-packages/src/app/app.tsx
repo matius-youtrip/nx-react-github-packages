@@ -1,13 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import { HelloWorld } from '@matius-youtrip/react-components';
 
 export function App() {
-  return (
-    <div>
-      <NxWelcome title="nx-react-github-packages" />
-    </div>
-  );
+  return <HelloWorld />;
 }
 
 export default App;
